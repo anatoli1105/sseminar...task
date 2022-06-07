@@ -15,14 +15,14 @@ print(list)
 #Создать и заполнить файл случайными целыми значениями. Выполнить сортировку содержимого файла по возрастанию. 
 import random
 list = []
-def Sort_List(list):
+def sort_list(list):
 
     for i in range(10):
         list.append(random.randint(1,100))
     print (list)
     sort_list=sorted(list)
     print (sort_list)
-Sort_List(list)
+sort_list(list)
 
 #----------------------------------------------------------------------------------------------
  #найти триплеты и просто выводить их на экран. 
